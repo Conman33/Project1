@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "assetmap-addon",
+  "version": "1.0.0",
+  "name": "Asset Map (Meteor addon)",
+  "environment": "client",
+  "entrypoints": { "meteor": ["dev.example.assetmap.AssetMapAddon"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "meteor-client": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
